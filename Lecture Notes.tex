@@ -1,0 +1,53 @@
+%!TEX program = xelatex
+\documentclass{article}
+\usepackage{LaTeX-Submodule/template}
+
+% Additional packages & macros
+
+% Header and footer
+% ! \newcommand{\className}{Unit name}
+% ! \newcommand{\classTime}{Semester #, 20xx}
+% ! \newcommand{\classInstructorName}{Unit coordinator name}
+
+\fancyhead[L]{\className}
+\fancyhead[R]{\leftmark}
+\fancyfoot[C]{\thepage}
+
+% Copyright
+\usepackage[
+    type={CC},
+    modifier={by-nc-sa},
+    version={4.0},
+    imagewidth={5em},
+    hyphenation={raggedright}
+]{doclicense}
+
+\date{}
+
+\begin{document}
+%
+\begin{titlepage}
+    \vspace*{\fill}
+    \begin{center}
+        \LARGE{\textbf{\className}}
+        \texorpdfstring{\\}{ }
+        \texorpdfstring{\vspace{0.1in}}{ }
+        \normalsize{\classTime}
+        \texorpdfstring{\\}{ }
+        \texorpdfstring{\vspace{0.2in}}{ }
+        \normalsize\textit{\classInstructorName}
+        \texorpdfstring{\\}{ }
+    \end{center}
+    \begin{center}
+%!        \textsc{Collaborator names}
+    \end{center}
+    \vspace*{\fill}
+    \doclicenseThis
+    \thispagestyle{empty}
+\end{titlepage}
+\newpage
+%
+\tableofcontents
+\newpage
+%
+\end{document}
