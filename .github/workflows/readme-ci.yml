@@ -13,8 +13,6 @@ jobs:
         
       - name: Setup Node.js environment
         uses: actions/setup-node@main
-        with:
-          node-version: 17
         
       - name: Tarang74/README-CI
         uses: Tarang74/README-CI@main
