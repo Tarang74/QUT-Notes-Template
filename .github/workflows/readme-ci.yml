@@ -16,10 +16,10 @@ jobs:
         with:
           node-version: 17
         
-      - name: Tarang74/README-CI
-        uses: Tarang74/README-CI@v1.0.3
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
       - name: Log file directory
         run: ls -r
+        
+      - name: Tarang74/README-CI
+        uses: Tarang74/README-CI@v1.0.4
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
