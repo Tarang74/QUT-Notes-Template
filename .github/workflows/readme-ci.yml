@@ -17,6 +17,6 @@ jobs:
           node-version: 17
         
       - name: Tarang74/README-CI
-        uses: Tarang74/README-CI@v1.0.5
+        uses: Tarang74/README-CI@v1.1.0
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
