@@ -6,7 +6,7 @@
 
 ---
 
-This repository provides **lecture notes** for **QUT-Notes-Template - Unit name**.
+This repository provides **lecture notes** and **exam notes** for **QUT-Notes-Template - Unit name**.
 
 *The contents of the lecture notes are described below.*
 
