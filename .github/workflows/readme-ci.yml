@@ -20,3 +20,6 @@ jobs:
         uses: Tarang74/README-CI@v1.0.3
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Log file directory
+        run: ls -r
