@@ -1,12 +1,12 @@
-# QUT-Notes-Template - 
+# QUT-Notes-Template - Unit name
 
-## 
+## Unit coordinator name
 
-### Semester , 
+### Semester #, 20xx
 
 ---
 
-This repository provides **lecture notes** for **QUT-Notes-Template - **.
+This repository provides **lecture notes** for **QUT-Notes-Template - Unit name**.
 
 *The contents of the lecture notes are described below.*
 
@@ -15,8 +15,6 @@ This repository provides **lecture notes** for **QUT-Notes-Template - **.
 ## Contents
 
 1. Section 1
-
----
 
 
 ---
