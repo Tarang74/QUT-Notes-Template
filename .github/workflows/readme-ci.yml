@@ -16,8 +16,6 @@ jobs:
         with:
           node-version: 17
         
-      - run: npm install
-        
       - name: Tarang74/README-CI
         uses: Tarang74/README-CI@v1.0.0
         with:
