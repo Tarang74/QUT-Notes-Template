@@ -12,6 +12,6 @@ jobs:
         uses: actions/checkout@v2
 
       - name: README CI
-        uses: Tarang74/test-readme-actions@main
+        uses: Tarang74/README-CI@main
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
