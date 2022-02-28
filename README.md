@@ -16,7 +16,6 @@ This repository provides **lecture notes** and **exam notes** for **QUT-Notes-Te
 
 1. Section 1
 
-
 ---
 
 ![Copyright](https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png)
