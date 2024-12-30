@@ -1,4 +1,4 @@
-# General Editor dotfiles 
+# General Editor dotfiles
 *.vscode
 
 # Complete diagnostics reported by LaTeX
@@ -7,8 +7,12 @@
 # BibTeX
 ## Data used by BibTeX
 *.bbl
+## biblatex control file
+*.bcf
 ## Log file for BibTeX
 *.blg
+## biber XML file
+*.run.xml
 
 # Font definitions
 *.fdb_latexmk
@@ -35,5 +39,13 @@
 # Intermediary output for PDF files
 *.xdv
 
-# Miscellaneous 
+# Miscellaneous
 *.fls
+
+# Minted
+*.pyg
+*.pygstyle
+*.pygtex
+
+# LaTeX indent
+*.bak*
